@@ -1,0 +1,25 @@
+body {
+  background-color: lightcyan;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+}
+
+body > h1 {
+  text-align: center;
+}
+.grid-container {
+  display: flex;
+  flex: 1;
+  flex-wrap: wrap;
+  height: 500px;
+  width: 500px;
+  margin: auto;
+  border: solid black 1px;
+}
+
+.grid-cell {
+  box-sizing: border-box;
+  border: 1px solid black;
+}
